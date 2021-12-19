@@ -1,1 +1,1 @@
-web: gunicorn master:app
+web: gunicorn course2:app
