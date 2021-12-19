@@ -85,5 +85,5 @@ def user_page(username):
     return render_template("user-feed.html", posts=users_posts, count_comments=count_comments)
 
 
-
-app.run()
+if __name__ == "__main__":
+   app.run()
